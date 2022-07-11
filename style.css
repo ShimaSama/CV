@@ -406,12 +406,12 @@ h6 {
 
 .project1 {
     background: url("cool.gif") no-repeat 50% 50%;
-    background-size: cover;
+    background-size: contain;
 }
 
 .project2 {
     background: url("ezgif-2-62c6f6a338.gif") no-repeat 50% 0%;
-    background-size: cover;
+    background-size: contain;
     height: 550px !important;
 
 
@@ -429,10 +429,32 @@ h6 {
 }
 
 .project5 {
-    background: url("ezgif-2-999a285183.gif") no-repeat 50% 50%;
-    background-size: cover;
+    background: url("ezgif-2-999a285183.gif") no-repeat 40% 40%;
+    background-size: contain;
 }
 
+.project6 {
+    background: url("tornado.gif") no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.project7 {
+    background: url("wave2.gif") no-repeat 50% 50%;
+    background-size:contain;
+    
+}
+.project8 {
+    background: url("blur.gif") no-repeat 50% 50%;
+    background-size:contain;
+}
+.project9 {
+    background: url("noise.gif") no-repeat 50% 50%;
+    background-size:contain;
+}
+.project10 {
+    background: url("lines.gif") no-repeat 50% 50%;
+    background-size:contain;
+}
 
 .hello {
 
@@ -641,7 +663,110 @@ h2 {
 .hey4 {
 
     position: relative;
+    PADDING-RIGHT: 3.4EM !important;
 }
+
+
+
+@media(max-width:1000px) {
+
+    .imgabout {
+
+        visibility: hidden !important;
+        height: 0px !important;
+       
+    } 
+    .hey4 {
+
+        position: relative;
+        max-width: 85% !important;
+        padding-left: 0 !important;
+        padding-bottom: 1.8em !important;
+    }
+    .btnn {
+       
+        margin-left: 42.5% ;
+            
+    }
+    .info p {
+   
+    padding-left: 3em;
+    }
+ 
+ 
+   
+}
+@media(max-width:765px) {
+
+    .imgabout {
+
+        visibility: hidden !important;
+        height: 0px !important;
+       
+    } 
+    .hey4 {
+
+        position: relative;
+        max-width: 78% !important;
+        padding-left: 0 !important;
+        padding-bottom: 1.8em !important;
+    }
+    .btnn {
+       
+        margin-left: 34.5%;
+    
+    }
+    .info p {
+   
+    padding-left: 0em;
+    }
+    .titulo {
+        font-size: 22px;
+    }
+ 
+   
+}
+@media(max-width:450px) {
+
+    .imgabout {
+
+        visibility: hidden !important;
+        height: 0px !important;
+       
+    } 
+    .hey4 {
+
+        position: relative;
+        max-width: 85% !important;
+        padding-left: 0 !important;
+        padding-bottom: 1.8em !important;
+    }
+    .btnn {
+       
+        margin-left: 29%;
+    
+    }
+
+    .imgabout {
+
+        height: 300px;
+        padding-left: 1.5em !important;
+      
+    }
+    .titulo {
+        font-size: 20px;
+    }
+ 
+ 
+   
+}
+
+
+
+
+
+
+
 
 .fade2::after {
     content: "About me.";
